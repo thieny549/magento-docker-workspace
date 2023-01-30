@@ -17,8 +17,8 @@
 - chmod -R 775 *
 
 ---- DB Config ----
-Host:   mage-mysql
-User:   root
-Passw:  
+- Host:   mage-mysql
+- User:   root
+- Passw:  
 
 

@@ -1,0 +1,158 @@
+2023/01/23 05:02:26 [notice] 1#1: using the "epoll" event method
+2023/01/23 05:02:26 [notice] 1#1: nginx/1.22.1
+2023/01/23 05:02:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/23 05:02:26 [notice] 1#1: OS: Linux 5.15.0-58-generic
+2023/01/23 05:02:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/23 05:02:26 [notice] 1#1: start worker processes
+2023/01/23 05:02:26 [notice] 1#1: start worker process 27
+2023/01/23 05:02:26 [notice] 1#1: start worker process 28
+2023/01/23 05:02:26 [notice] 1#1: start worker process 29
+2023/01/23 05:02:26 [notice] 1#1: start worker process 30
+2023/01/23 05:05:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/23 05:05:12 [notice] 27#27: gracefully shutting down
+2023/01/23 05:05:12 [notice] 29#29: gracefully shutting down
+2023/01/23 05:05:12 [notice] 30#30: gracefully shutting down
+2023/01/23 05:05:12 [notice] 27#27: exiting
+2023/01/23 05:05:12 [notice] 29#29: exiting
+2023/01/23 05:05:12 [notice] 30#30: exiting
+2023/01/23 05:05:12 [notice] 27#27: exit
+2023/01/23 05:05:12 [notice] 30#30: exit
+2023/01/23 05:05:12 [notice] 29#29: exit
+2023/01/23 05:05:12 [notice] 28#28: gracefully shutting down
+2023/01/23 05:05:12 [notice] 28#28: exiting
+2023/01/23 05:05:12 [notice] 28#28: exit
+2023/01/23 05:05:13 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/01/23 05:05:13 [notice] 1#1: worker process 27 exited with code 0
+2023/01/23 05:05:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:05:13 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/01/23 05:05:13 [notice] 1#1: worker process 29 exited with code 0
+2023/01/23 05:05:13 [notice] 1#1: worker process 30 exited with code 0
+2023/01/23 05:05:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:05:13 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/01/23 05:05:13 [notice] 1#1: worker process 28 exited with code 0
+2023/01/23 05:05:13 [notice] 1#1: exit
+2023/01/23 05:05:21 [notice] 1#1: using the "epoll" event method
+2023/01/23 05:05:21 [notice] 1#1: nginx/1.22.1
+2023/01/23 05:05:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/23 05:05:21 [notice] 1#1: OS: Linux 5.15.0-58-generic
+2023/01/23 05:05:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/23 05:05:21 [notice] 1#1: start worker processes
+2023/01/23 05:05:21 [notice] 1#1: start worker process 27
+2023/01/23 05:05:21 [notice] 1#1: start worker process 28
+2023/01/23 05:05:21 [notice] 1#1: start worker process 29
+2023/01/23 05:05:21 [notice] 1#1: start worker process 30
+2023/01/23 05:08:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/23 05:08:31 [notice] 27#27: gracefully shutting down
+2023/01/23 05:08:31 [notice] 29#29: gracefully shutting down
+2023/01/23 05:08:31 [notice] 28#28: gracefully shutting down
+2023/01/23 05:08:31 [notice] 27#27: exiting
+2023/01/23 05:08:31 [notice] 28#28: exiting
+2023/01/23 05:08:31 [notice] 29#29: exiting
+2023/01/23 05:08:31 [notice] 28#28: exit
+2023/01/23 05:08:31 [notice] 29#29: exit
+2023/01/23 05:08:31 [notice] 27#27: exit
+2023/01/23 05:08:31 [notice] 30#30: gracefully shutting down
+2023/01/23 05:08:31 [notice] 30#30: exiting
+2023/01/23 05:08:31 [notice] 30#30: exit
+2023/01/23 05:08:31 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/01/23 05:08:31 [notice] 1#1: worker process 27 exited with code 0
+2023/01/23 05:08:31 [notice] 1#1: worker process 29 exited with code 0
+2023/01/23 05:08:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:08:31 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/01/23 05:08:31 [notice] 1#1: worker process 28 exited with code 0
+2023/01/23 05:08:31 [notice] 1#1: worker process 30 exited with code 0
+2023/01/23 05:08:31 [notice] 1#1: exit
+2023/01/23 05:08:51 [notice] 1#1: using the "epoll" event method
+2023/01/23 05:08:51 [notice] 1#1: nginx/1.22.1
+2023/01/23 05:08:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/23 05:08:51 [notice] 1#1: OS: Linux 5.15.0-58-generic
+2023/01/23 05:08:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/23 05:08:51 [notice] 1#1: start worker processes
+2023/01/23 05:08:51 [notice] 1#1: start worker process 28
+2023/01/23 05:08:51 [notice] 1#1: start worker process 29
+2023/01/23 05:08:51 [notice] 1#1: start worker process 30
+2023/01/23 05:08:51 [notice] 1#1: start worker process 31
+2023/01/23 05:09:35 [error] 28#28: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ReflectionException: Class "Magento\Framework\App\ResourceConnection\Proxy" does not exist in /var/www/html/lib/internal/Magento/Framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/html/lib/internal/Magento/Framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct('Magento\\Framewo...')
+#1 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor('Magento\\Framewo...')
+#2 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters('Magento\\Framewo...')
+#3 /var/www/html/lib/internal/Magento/Framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#4 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#5 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'resource', 'Magento\\Framewo...')
+#6 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument('Magento\\Framewo...', Array, Array)
+#7 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime('Magento\\Framewo...', Array, Array)
+#8 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments('Magento\\Framewo...', Array, Array)
+#9 /var/www/html/lib/internal/Magento/Framework/O
+2023/01/23 05:09:35 [error] 28#28: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ReflectionException: Class "Magento\Framework\App\ResourceConnection\Proxy" does not exist in /var/www/html/lib/internal/Magento/Framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/html/lib/internal/Magento/Framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct('Magento\\Framewo...')
+#1 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor('Magento\\Framewo...')
+#2 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters('Magento\\Framewo...')
+#3 /var/www/html/lib/internal/Magento/Framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#4 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#5 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'resource', 'Magento\\Framewo...')
+#6 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument('Magento\\Framewo...', Array, Array)
+#7 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime('Magento\\Framewo...', Array, Array)
+#8 /var/www/html/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments('Magento\\Framewo...', Array, Array)
+#9 /var/www/html/lib/internal/Magento/Framework/O
+2023/01/23 05:10:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/23 05:10:35 [notice] 28#28: gracefully shutting down
+2023/01/23 05:10:35 [notice] 28#28: exiting
+2023/01/23 05:10:35 [notice] 30#30: gracefully shutting down
+2023/01/23 05:10:35 [notice] 31#31: gracefully shutting down
+2023/01/23 05:10:35 [notice] 30#30: exiting
+2023/01/23 05:10:35 [notice] 31#31: exiting
+2023/01/23 05:10:35 [notice] 28#28: exit
+2023/01/23 05:10:35 [notice] 30#30: exit
+2023/01/23 05:10:35 [notice] 31#31: exit
+2023/01/23 05:10:35 [notice] 29#29: gracefully shutting down
+2023/01/23 05:10:35 [notice] 29#29: exiting
+2023/01/23 05:10:35 [notice] 29#29: exit
+2023/01/23 05:10:35 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/01/23 05:10:35 [notice] 1#1: worker process 30 exited with code 0
+2023/01/23 05:10:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:10:35 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/01/23 05:10:35 [notice] 1#1: worker process 31 exited with code 0
+2023/01/23 05:10:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:10:35 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/01/23 05:10:35 [notice] 1#1: worker process 29 exited with code 0
+2023/01/23 05:10:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:10:35 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/01/23 05:10:35 [notice] 1#1: worker process 28 exited with code 0
+2023/01/23 05:10:35 [notice] 1#1: exit
+2023/01/23 05:21:02 [notice] 1#1: using the "epoll" event method
+2023/01/23 05:21:02 [notice] 1#1: nginx/1.22.1
+2023/01/23 05:21:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/23 05:21:02 [notice] 1#1: OS: Linux 5.15.0-58-generic
+2023/01/23 05:21:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/23 05:21:02 [notice] 1#1: start worker processes
+2023/01/23 05:21:02 [notice] 1#1: start worker process 28
+2023/01/23 05:21:02 [notice] 1#1: start worker process 29
+2023/01/23 05:21:02 [notice] 1#1: start worker process 30
+2023/01/23 05:21:02 [notice] 1#1: start worker process 31
+2023/01/23 05:21:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/23 05:21:52 [notice] 31#31: gracefully shutting down
+2023/01/23 05:21:52 [notice] 31#31: exiting
+2023/01/23 05:21:52 [notice] 31#31: exit
+2023/01/23 05:21:52 [notice] 30#30: gracefully shutting down
+2023/01/23 05:21:52 [notice] 30#30: exiting
+2023/01/23 05:21:52 [notice] 30#30: exit
+2023/01/23 05:21:52 [notice] 29#29: gracefully shutting down
+2023/01/23 05:21:52 [notice] 29#29: exiting
+2023/01/23 05:21:52 [notice] 29#29: exit
+2023/01/23 05:21:52 [notice] 28#28: gracefully shutting down
+2023/01/23 05:21:52 [notice] 28#28: exiting
+2023/01/23 05:21:52 [notice] 28#28: exit
+2023/01/23 05:21:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/01/23 05:21:52 [notice] 1#1: worker process 31 exited with code 0
+2023/01/23 05:21:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:21:52 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/01/23 05:21:52 [notice] 1#1: worker process 30 exited with code 0
+2023/01/23 05:21:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:21:52 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/01/23 05:21:52 [notice] 1#1: worker process 29 exited with code 0
+2023/01/23 05:21:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/23 05:21:52 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/01/23 05:21:52 [notice] 1#1: worker process 28 exited with code 0
+2023/01/23 05:21:52 [notice] 1#1: exit

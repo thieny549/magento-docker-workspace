@@ -1,0 +1,2 @@
+172.22.0.1 - - [23/Jan/2023:05:09:35 +0000] "GET / HTTP/1.1" 200 883 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0" "-"
+172.22.0.1 - - [23/Jan/2023:05:09:35 +0000] "GET /favicon.ico HTTP/1.1" 200 883 "http://localhost:8090/" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0" "-"

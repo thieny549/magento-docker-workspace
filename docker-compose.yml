@@ -1,0 +1,54 @@
+version: "3"
+
+services:
+
+    mysql:
+        image: mariadb:10.4.27-focal
+        container_name: mage-mysql
+        ports:
+            - ${DB_PORT:-4406}:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWD}
+            MYSQL_ROOT_HOST: '%'
+        volumes:
+            - "./mysql/conf:/etc/mysql/mariadb.conf.d"
+            - "./mysql/data:/var/lib/mysql"
+
+    php:
+        build: ./php
+        container_name: mage-php
+        volumes:
+            - "./source:/var/www/html"
+            - "./php/php.ini:/usr/local/etc/php/php.ini"
+            - "./php/docker-php-ext-xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini"
+
+    nginx:
+        image: nginx:stable
+        container_name: mage-nginx
+        ports:
+            - ${WEB_PORT:-8090}:80
+        volumes:
+            - "./source:/var/www/html"
+            - "./nginx/conf.d:/etc/nginx/conf.d"
+            - "./nginx/logs:/var/log/nginx"
+    
+    elasticsearch:
+        image: elasticsearch:7.17.8
+        container_name: mage-elasticsearch
+        ports:
+            - ${ES_PORT:-9220}:9200
+        environment:
+            - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+            - discovery.type=single-node
+
+    phpmyadmin:
+        image: phpmyadmin:5.2-apache
+        container_name: mage-phpmyadmin
+        ports:
+            - ${DB_ADMIN_PORT:-8092}:80
+        links:
+            - mysql:db
+        environment:
+            - UPLOAD_LIMIT=100M
+
+        
